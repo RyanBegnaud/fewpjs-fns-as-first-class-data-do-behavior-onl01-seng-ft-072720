@@ -27,5 +27,5 @@ function greet(string) {
 
 function displayMessage(string) {
   let update = document.getElementById("greeting");
-  update.textContent = string;
+  update.innerHTML = string;
 }
